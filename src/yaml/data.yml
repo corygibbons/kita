@@ -1,3 +1,20 @@
 site:
   title: Kita
-  tagline: Hello World!
+  tagline: Version 0.0.1
+  welcome: >
+    Thank-you for installing Kita!
+    To get started begin editing the files inside the /src/ directory. Everything will be compiled and put into /dist/ where it's served and automatically reloaded by Browsersync.
+    Pug files will be compiled into HTML with the contents of data.json available to you, Stylus into CSS, CoffeeScript into JavaScript, and YAML into JSON.
+  links:
+    -
+      name: Pug
+      url: http://pugjs.org
+    -
+      name: Stylus
+      url: http://stylus-lang.com
+    -
+      name: CoffeeScript
+      url: http://coffeescript.org
+    -
+      name: YAML
+      url: http://www.yaml.org
