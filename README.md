@@ -1,25 +1,25 @@
 # Kita
-Kita is a starter kit that aims to help you quickly get a static site up and running. It uses Gulp as a build system to compile Pug, Stylus, YAML, and CoffeeScript. All changes are then automatically pushed to your browser(s) using Browsersync.
+Kita is a starter kit that aims to help you quickly get a static site up and running. It uses NPM scripts as a build system to handle Pug, PostCSS, and ES6. All changes are then automatically pushed to your browser(s) using Browsersync.
 
 ## Setup
-Make sure you have NPM and Gulp installed. If not, NPM comes with Node and can be downloaded [here](https://nodejs.org/en/download/) and Gulp can be installed globally with the following command:
-```
-$ npm install --global gulp-cli
-```
 
-Make sure you're in the /kita directory and install all dependencies using:
+Make sure you have NPM installed. If not, NPM comes with Node and can be downloaded [here](https://nodejs.org/en/download/).
+
+Clone the repo and install all dependencies using:
 ```
+$ git clone https://github.com/corygibbons/kita.git && cd kita
 $ npm install
 ```
 
-Then run:
+To start the watcher run:
 ```
-$ gulp
+$ npm start
 ```
-and you should be up and running.
+Or to build everything once run:
+```
+$ npm run build
+```
 
 ## Resources
-- [Stylus](http://stylus-lang.com)
+- [PostCSS](http://postcss.org)
 - [Pug](https://pugjs.org)
-- [YAML](http://www.yaml.org)
-- [CoffeeScript](http://coffeescript.org)

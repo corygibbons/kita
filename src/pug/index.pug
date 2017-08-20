@@ -2,10 +2,6 @@ extends partials/base
 
 block content
   h1.kita-title #{site.title}
-  h2.kita-version #{site.tagline}
+  h2.kita-version #{site.version}
   p #{site.welcome}
-  p If you run into any issues or have improvements please create an issue on #[a(href="https://github.com/corygibbons/kita/issues" target="_blank") Github]. Please refer to the links below for documentation on the individual languages.
-
-  ul
-    for link in site.links
-      li: a(href=link.url target="_blank") #{link.name}
+  p If you run into any issues or have improvements please create an issue on #[a(href="https://github.com/corygibbons/kita/issues" target="_blank") Github].

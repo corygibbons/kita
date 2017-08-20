@@ -4,15 +4,15 @@ html
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
 
-    title !{site.title}
+    title #{site.title} #{site.version}
 
     meta(name='description', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1')
 
-    link(rel='stylesheet', href='style.css')
+    link(rel='stylesheet', href='css/style.css')
 
   body
     .container
       block content
 
-    script(src="js/scripts.js")
+    script(src='js/bundle.js')
